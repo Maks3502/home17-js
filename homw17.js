@@ -12,6 +12,8 @@
 // }
 
 // console.log(personInfo(person))
+
+
 // завдання 2
 
 // const student = {
@@ -20,40 +22,48 @@
 //     grades : [4, 5, 3],
 
 // }
-// console.log(calcGrades(student))
+
+
+// function calculatAverageGrade (student){
+//     const {name: nameP, surname, grades} = student;
+//     const {gradesone, gradestwo, gradesthre} = grades;
+//     const canculate = Math.Math.round(gradesone + gradestwo + gradesthre);
+
+// }
+// console.log(calculatAverageGrade(student))
 
 // задання 3
 
-const person ={
-    name:"John",
-    emails: ["fsfsfsfsfsf@gmail.com", "sffsfsfsfsfssfdsf@gmail.com", "ncjydjsdtsuasjsya458@gmail.com"],
-};
-const {name: name1, emails: [email1, email2, email3] } = person;
-function getEmail (email1, email2, email3){
-    console.log(email2)
-};
-getEmail(email1, email2, email3);
+// const person ={
+//     name:"John",
+//     emails: ["fsfsfsfsfsf@gmail.com", "sffsfsfsfsfssfdsf@gmail.com", "ncjydjsdtsuasjsya458@gmail.com"],
+// };
+// const {name: name1, emails: [email1, email2, email3] } = person;
+// function getEmail (email1, email2, email3){
+//     console.log(email2)
+// };
+// getEmail(email1, email2, email3);
 
 
-// завдання 4
-const data = {
-    users : [
-        {name : "john", age : 25},
-        {name : "Max", age : 17},
-        {name : "bob", age : 30},
-        {name : "nastya", age : 20},
+// // завдання 4
+// const data = {
+//     users : [
+//         {name : "john", age : 25},
+//         {name : "Max", age : 17},
+//         {name : "bob", age : 30},
+//         {name : "nastya", age : 20},
         
 
-    ]
+//     ]
 
-};
+// };
 
-function getAdultUsers(data){
-    const {users} = data;
+// function getAdultUsers(data){
+//     const {users} = data;
 
-const adalt18 = users.filter(({ age }) => age > 18 );
-return adalt18;
+// const adalt18 = users.filter(({ age }) => age > 18 );
+// return adalt18;
 
-}
+// }
 
-console.log(getAdultUsers(data))
+// console.log(getAdultUsers(data))
